@@ -1,0 +1,46 @@
+.title{
+  font-size:36rpx;
+  text-align:center;
+  margin:30rpx 0;
+}
+.img{
+  width:100%;
+  height:360rpx;
+  background:#eee;
+  margin-bottom:40rpx;
+}
+.option{
+  border:1rpx #ccc solid;
+  border-radius:12rpx;
+  padding:30rpx;
+  margin-bottom:20rpx;
+  font-size:32rpx;
+}
+.modal-mask{
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.5);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.modal-content{
+  width:70%;
+  background:#fff;
+  border-radius:16rpx;
+  padding:40rpx;
+  text-align:center;
+}
+.right{
+  font-size:34rpx;
+  color:#09bb07;
+  margin-bottom:30rpx;
+}
+.err{
+  font-size:34rpx;
+  color:#f53f3f;
+  margin-bottom:30rpx;
+}
